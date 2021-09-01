@@ -2,8 +2,8 @@
 // JSON
 const user = { id: 11, name: 'Gorib Amir', job: 'actor' };
 const stringified = JSON.stringify(user);
-// console.log(user);
-// console.log(stringified);
+// console.log(user);                               
+// console.log(stringified);            //api formate a dekhabe
 
 const shop = {
     name: 'Alia Store',
@@ -18,6 +18,6 @@ const shop = {
 };
 const shopStringified = JSON.stringify(shop);
 // console.log(shop);
-console.log(shopStringified);
-const converted = JSON.parse(shopStringified);
+console.log(shopStringified);                       //api formate
+const converted = JSON.parse(shopStringified);        //object formate
 console.log(converted.owner);
